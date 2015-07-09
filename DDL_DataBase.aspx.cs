@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 public partial class _Default : System.Web.UI.Page
 {
-    SqlConnection conn = new SqlConnection(@"Data Source=PC-623\SQL2008;Initial Catalog=Practice;Integrated Security=True");
+    SqlConnection conn = new SqlConnection(@"Server=ef4677ef-1c59-4560-868a-a4d000641079.sqlserver.sequelizer.com;Database=dbef4677ef1c594560868aa4d000641079;User ID=vrvlcyakldnwtidm;Password=xj4LZS3YjfBrwnMkurRJQHpezs6vkUcHiZbScUogVaqaCRcoBvGCJFWW3XkGVEMw;");
 
 
     protected void Page_Load(object sender, EventArgs e)
